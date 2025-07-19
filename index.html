@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DIGI TREND- Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">DIGI TREND</div>
+    <nav>
+      <ul class="navbar-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="cart">🛒<span id="cart-count">0</span></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+    <h1 class="offer">MEGA OFFER SALE!!!</h1>
+    <div class="product-grid1">
+       <div class="product">
+        <img src="data:image/webp;base64,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" alt="SMART WATCH">
+        <h2>Smart Watch</h2>
+        <p class="amt"><strike>$118.99</strike>  <b>$99.99</b></p>
+        <p>Fastrack Limitless FS2+ Smart Watch, 2.01" UltraVU Display, 
+          Functional Crown, SingleSync BT Calling, 110+ Sports Modes,
+           200+ Smartwatch Faces, Upto 7 Day Battery, AI Voice Assistant
+          Track your health and fitness goals.</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      <a href="https://www.amazon.in/Fastrack-Limitless-Functional-SingleSync-Smartwatch/dp/B0D962SZZ1/ref=asc_df_B0D962SZZ1?mcid=84c7e9ddb1243b36b35d699bae8b07f9&tag=googleshopdes-21&linkCode=df0&hvadid=710088155495&hvpos=&hvnetw=g&hvrand=7002620046664828482&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007776&hvtargid=pla-2527943223792&psc=1&gad_source=1">
+        <button><b>BUY</b></button></a>
+      </div>
+
+      <div class="product">
+        <img src="https://rukminim2.flixcart.com/image/416/416/k9bo9e80/speaker/mobile-tablet-speaker/y/x/u/best-buy-ultra-dj-sound-blast-with-super-deep-bass-wireless-original-imafr4j5hyxurnfg.jpeg?q=70&crop=false" alt="Bluetooth Speaker">
+        <h2>Bluetooth Speaker</h2>
+        <p class="amt"><strike>$58.44</strike>  <b>$43.20</b></p>
+        <p>F FERONS TG-113 Ultra 3D Dynamic Thunder Sound With High Bass
+           Wireless Portable 9 W Bluetooth Speaker
+          Portable and powerful bass.</p>
+        <button onclick="addToCart()">Add to Cart</button>
+        <a href="https://www.flipkart.com/f-ferons-tg-113-ultra-3d-dynamic-thunder-sound-high-bass-wireless-portable-9-w-bluetooth-speaker/p/itm8b84e5f98ca43?pid=ACCFMNRDGXDPPMVD&lid=LSTACCFMNRDGXDPPMVDHBCIAE&marketplace=FLIPKART&cmpid=content_speaker_22431562759_x_8965229628_gmc_pla&tgi=sem,1,G,11214002,x,,,,,,,c,,,,,,,&entryMethod=22431562759&&cmpid=content_22431562759_gmc_pla&gad_source=1&gad_campaignid=22428048374&gbraid=0AAAAADxRY58tLicvqqrKFMzPbmKadyihr&gclid=Cj0KCQjwhO3DBhDkARIsANxrhTr76HYk17x6pFItg8sChR4bglG4x_NgJCVASOhdumA0o2ZTPQBbHnsaAoB1EALw_wcB">
+          <button><b>BUY</b></button></a>
+      </div>
+  <div class="product">
+        <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRWkP9BaHEdAg3xo9eZ6ySvZ94QVHEMGHxuX4fh0z5Z-1SJv4y0zhss-dZ6w5t0teo5pwJfGTrRDhhYWPOiYpFbSG0nu19yHLWxxlCI4g4je-bAMLoSCZXqbA" alt="TABLET">
+        <h2>TABLET</h2>
+        <p class="amt"><strike>$210</strike>  <b>$188</b></p>
+        <p>I Kall N7 - 7inch WiFi Tablet, 2GB RAM 16GB Storage, 2MP 
+          Rear Camera, Android 8.0, Quad-Core Processor.</p>
+        <button onclick="addToCart()">Add to Cart</button>
+        <a href="https://share.google/S7FNCfIXn1atqqoMA"><button><b>BUY</b></button></a>
+      </div>
+
+    </div>  
+
+         <h1 class="section-title">FEATURED PRODUCTS</h1>
+      <div class="product-grid">
+        <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSpT-_lC0Wal5tN25w-STKOg4a1KbgzLwU2QDsaLMRLYDjgce7H9FLxUNYpjJeXvW7MLaZT5-qmqdlnxu8vCeoGyXbR8uHi0bIKENPQI7lVAcRf_OEfrhwiFmE" alt="WIRELESS HEADPHONES">
+        <h2>Wireless Headphones</h2>
+        <p class="amt"><b>$140.25</b></p>
+        <p>With noise-cancelling technology, a lightweight design and a
+           long-lasting battery life you can enjoy your music for longer 
+           and without background interruptions.
+          Clear sound & long battery life.</p>
+        <button onclick="addToCart()">Add to Cart</button>
+        <a href="https://share.google/ANxmnnCmf2FHwocGk"><button><b>BUY</b></button></a>
+      </div>
+
+      <div class="product">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRWyq5suwmMxOpc4N4GuGSDbYcOOhEWnPzXaf4He2bxOfn-PiTETTA6acnchtNU_OuqZ2qfEm3c-ijEWWlFKHICKEeddzrw9iVxgC9aS-Xo_-g5C-Nv997gRO3N4QS4vw&usqp=CAc" alt="NECKBAND">
+        <h2>NECKBAND</h2>
+        <p class="amt"><b>$34.99</b></p>
+        <p>ZEBRONICS Zeb Evolve Wireless Bluetooth in Ear Neckband 
+          Earphone, Rapid Charge, Dual Pairing, Magnetic earpiece,Voice 
+          Assistant with Mic
+          GOOD BATTERY BACKUP & SOUND QUALITY</p>
+        <button onclick="addToCart()">Add to Cart</button>
+        <a href="https://www.amazon.in/Zebronics-Zeb-Evolve-Wireless-
+        Blue/dp/B08VGNYQSW/ref=asc_df_B08VGNYQSW?mcid=f27ace31b66d3b278fc
+        1924fea503402&tag=googleshopdes-21&linkCode=df0&hvadid=709962856304
+        &hvpos=&hvnetw=g&hvrand=2675479909957719376&hvpone=&hvptwo=&hvqmt=&
+        hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007776&hvtargid=pla-1249982051
+        025&gad_source=1&th=1"><button><b>BUY</b></button></a>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
